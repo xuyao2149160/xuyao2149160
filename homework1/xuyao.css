@@ -1,0 +1,96 @@
+body {
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+header {
+  background-color: #ac0000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+
+
+div>input {
+  outline: none;
+  border-width: 0px;
+}
+
+
+.a7:focus-within {
+  border-color: #ac0000;
+  box-shadow: 0px 0px 4px #ac0000;
+  color: #ac0000;
+
+}
+
+main {
+  border: 1px solid #000000;
+  text-align: center;
+  margin: 0px 40%;
+  border-radius: 12px;
+  margin-top: 9rem;
+}
+
+.a1 {
+  color: #ffffffff;
+  background-color: #ac0000;
+  font-size: 1.2rem;
+  padding: 0.5rem 3rem;
+  border-top: 0px solid #000000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+
+}
+
+.a2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.a4 {
+  padding-bottom: 20px;
+}
+
+.a5 {
+  background-color: #ac0000;
+  color: #ffffff;
+  border: 0px solid #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.a6 {
+  background-color: #000000;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.a7 {
+  border: 1px solid #000000;
+
+  border-radius: 2px;
+  padding: 5px 20px;
+  margin: 20px 50px;
+  width: 150px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  background-color: #ac0000;
+  padding: 20px;
+  color: #ffffff;
+  width: 98%;
+}
